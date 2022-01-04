@@ -12,4 +12,5 @@ class Square(FigureGeometric, Color): # the order is important
         return self.height * self.width
 
     def __str__(self):
-        return f'{FigureGeometric.__str__(self)} {Color.__str__()}'
+        return f'{FigureGeometric.__str__(self)} {Color.__str__(self)}'
+
