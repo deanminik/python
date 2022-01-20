@@ -8,7 +8,7 @@ class Rectangle(FigureGeometric, Color):
         FigureGeometric.__init__(self, width, height)
         Color.__init__(self, color)
 
-    def cal_area(self):
+    def calculate_area(self):
         return self.height * self.width
 
     def __str__(self):

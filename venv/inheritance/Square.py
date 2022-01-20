@@ -8,7 +8,7 @@ class Square(FigureGeometric, Color): # the order is important
         FigureGeometric.__init__(self, side, side)
         Color.__init__(self, color)
 
-    def calculator_are(self):
+    def calculate_area(self):
         return self.height * self.width
 
     def __str__(self):
