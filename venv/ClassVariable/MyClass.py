@@ -14,7 +14,22 @@ class MyClass:
     def class_method(cls): #we receive this parameter cls = class from classmethod
         print(cls.variable_class)
 
+    def instance_method(self):
+        #now we can access to the static method
+        self.class_method()
+        self.static_method()
+        print(self.variable_class)
+        print(self.instance_variable)
+
+
 MyClass.class_method()
+myObject1 = MyClass('variable_instance')
+myObject1.class_method()
+myObject1.instance_method()
+
+
+
+#MyClass.class_method()
 #MyClass.static_method()
 """
 print(MyClass.variable_class)
