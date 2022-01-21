@@ -13,3 +13,8 @@ print(myclass.variable_class)
 myclass2 = MyClass('Value variable instance from second object')
 print(myclass2.instance_variable)
 print(myclass2.variable_class)
+
+#this is a dynamic variable
+MyClass.variable_class2 = 'Value variable class 2'
+print(MyClass.variable_class2)
+
