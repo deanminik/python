@@ -7,6 +7,10 @@ class Product: # Again this class is inheritance of object
         self._name = name
         self._price = price
 
+    @property
+    def price(self):
+        return self._price
+
     def __str__(self):
         return f'Id Product: {self._id_product}, Name:{self._name}, Price: {self._price}'
         #To don't spend more time, using get and set because the variables are private, we are forcing to
