@@ -1,13 +1,13 @@
 class Person:
     person_counter = 0 # this will be share with every object
     @classmethod
-    def generate_netx_value(cls):  # REMEMBER: with this (cls) we access to our class variables
+    def _generate_next_value(cls):  # REMEMBER: with this (cls) we access to our class variables. (_) this is to don't allow the increment outside
         cls.person_counter += 1
         return cls.person_counter
 
     def __init__(self, name, age):
         #Person.person_counter += 1
-        self.id_person = Person.generate_netx_value()
+        self.id_person = Person._generate_next_value()
         self.name = name
         self.age = age
 
