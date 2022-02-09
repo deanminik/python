@@ -16,9 +16,11 @@ class Mouse(EntryDevice):
 
 
 # testing
-mouse1 = Mouse(entry_type='USB', brand='hp')
-mouse2 = Mouse(entry_type='USB', brand='Samsung')
-mouse3 = Mouse(entry_type='USB', brand='LG')
-print(mouse1)
-print(mouse2)
-print(mouse3)
+# To avoid execute this testing in another file, add this conditional
+if __name__ == '__main__':
+    mouse1 = Mouse(entry_type='USB', brand='hp')
+    mouse2 = Mouse(entry_type='USB', brand='Samsung')
+    mouse3 = Mouse(entry_type='USB', brand='LG')
+    print(mouse1)
+    print(mouse2)
+    print(mouse3)
