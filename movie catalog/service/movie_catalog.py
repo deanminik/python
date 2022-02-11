@@ -1,5 +1,6 @@
 import os
 
+
 # os operating system has the method delete
 
 class MovieCatalog:
@@ -7,7 +8,7 @@ class MovieCatalog:
 
     # we can use a static method or class method in this case we are going to use a class method because we have a
     # class variable and static method does not have a context class
-    @classmethod
+    @classmethod # static method
     # but we can access directly to our class variable (variable_path )
     def add_movie(cls, movie):
         with open(cls.variable_path, 'a') as file:  # 'a' -> append method
