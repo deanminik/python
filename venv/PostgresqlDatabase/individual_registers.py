@@ -10,8 +10,12 @@ connection = psycopg2.connect(
 try:
     with connection:
         with connection.cursor() as cursor:
-            sentence = 'SELECT id_person, per_name FROM person WHERE id_person IN (1,2)'
-            cursor.execute(sentence)
+            sentence = 'SELECT id_person, per_name FROM person WHERE id_person IN %s'
+            # primary_keys = ((1,2,3),) # tuple of tuples
+            entry = input('Add the ids separated with commas like this |1,2,3...| :')
+            # now convert into tuple  split to delete the (',') to return only the numbers
+            primary_keys = (tuple(entry.split(',')),) # tuple of tuples -> ((1,2,3),)
+            cursor.execute(sentence, primary_keys)
             registers = cursor.fetchall()
             for register in registers:
                 print(register)
