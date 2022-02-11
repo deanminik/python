@@ -8,22 +8,21 @@ connection = bd.connect(
     database='test_db_udemy'
 )
 try:
-    #begin of transaction
-   connection.autocommit = False # this is to don't save the changes automatically
-   cursor = connection.cursor()
-   sentence = 'INSERT INTO person(per_name, per_lastname, per_email) VALUES (%s, %s, %s)'
-   values = ('Mari++++', 'Barker', 'mymail@gmail.com')
-   cursor.execute(sentence, values)
+   with connection:
+       with connection.cursor() as cursor:
+           connection.autocommit = False # this is to don't save the changes automatically
+           cursor = connection.cursor()
+           sentence = 'INSERT INTO person(per_name, per_lastname, per_email) VALUES (%s, %s, %s)'
+           values = ('Mari++++', 'Barker', 'mymail@gmail.com')
+           cursor.execute(sentence, values)
 
-   sentence = 'UPDATE person SET per_name=%s, per_lastname, per_email WHERE id_person=%s'
-   values = ('Juank','rodriguez','hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh',1)
-   cursor.execute(sentence, values)
+           sentence = 'UPDATE person SET per_name=%s, per_lastname, per_email WHERE id_person=%s'
+           values = ('Juank','rodriguez','hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh',1)
+           cursor.execute(sentence, values)
 
-   connection.commit() # to save the changes manually
-    # end of transaction
-   print('transaction done')
 except Exception as e:
-        connection.rollback() # if something happens then go back and stored the registers
         print(f'There was an error, so we made a roll back  :{e}')
 finally:
     connection.close()
+
+print('transaction finished)')
