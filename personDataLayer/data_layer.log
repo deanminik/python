@@ -3,3 +3,23 @@
 01:12:30 AM: WARNING [logger_base.py:15] Message from the level warning
 01:12:30 AM: ERROR [logger_base.py:16] Message from the level error
 01:12:30 AM: CRITICAL [logger_base.py:17] Message from the level critical
+02:14:46 AM: DEBUG [person.py:51] 
+                Id Person: 15, Name: pepe
+                Last name: hdz, Email: mi@hotmail.com
+               
+02:20:55 AM: DEBUG [person.py:52] 
+                Id Person: 15, Name: pepe
+                Last name: hdz, Email: mi@hotmail.com
+               
+02:22:50 AM: DEBUG [person.py:52] 
+                Id Person: 15, Name: pepe
+                Last name: hdz, Email: mi@hotmail.com
+               
+02:22:50 AM: DEBUG [person.py:55] 
+                Id Person: None, Name: pepe
+                Last name: hdz, Email: mi@hotmail.com
+               
+02:22:50 AM: DEBUG [person.py:58] 
+                Id Person: 1, Name: None
+                Last name: None, Email: None
+               
