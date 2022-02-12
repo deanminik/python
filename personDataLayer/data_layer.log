@@ -23,3 +23,6 @@
                 Id Person: 1, Name: None
                 Last name: None, Email: None
                
+02:57:59 AM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f3ef1e71040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:59:22 AM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fedb658e040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:59:22 AM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7fedb775a040; closed: 0> 
