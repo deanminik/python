@@ -534,3 +534,11 @@
 12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c400; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c540; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c680; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:55:33 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fd827439190>
+12:55:33 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fd8260d4180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:55:52 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f0d226c4190>
+12:55:52 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f0d2135f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:00:27 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f8ea0d1cdc0>
+01:00:27 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f8e9faea180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:00:27 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f8e9faea180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:00:27 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f8e9faea180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>

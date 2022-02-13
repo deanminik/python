@@ -32,18 +32,29 @@ class Connection:
         else:
             return cls._pool
 
-
     @classmethod
     def get_connection(cls):
-        connection = cls.get_pool().getconn() # get conn is to call the pool and get an object connection
+        connection = cls.get_pool().getconn()  # get conn is to call the pool and get an object connection
         log.debug(f'Connection got it from the pool: {connection}')
         return connection
+
+    # put back to pool of connections
+    @classmethod
+    def release_connection(cls, connection):
+        cls.get_pool().putconn(connection)
+        log.debug(f'We put back the connection to the pool: {connection}')
+
+    @classmethod
+    def close_connections(cls):
+        cls.get_pool().closeall()
+        # all connection from the pool will close
 
 
 if __name__ == '__main__':
     connection1 = Connection.get_connection()
-    connection2 = Connection.get_connection()
-    connection3 = Connection.get_connection()
-    connection4 = Connection.get_connection()
-    connection5 = Connection.get_connection() # here is the max
-    connection6 = Connection.get_connection() # we can create from here
+    Connection.release_connection(connection1)
+    connection2 = Connection.get_connection() # probably the machine will share the same connection to the second client
+    # connection3 = Connection.get_connection()
+    # connection4 = Connection.get_connection()
+    # connection5 = Connection.get_connection()  # here is the max
+    # connection6 = Connection.get_connection()  # we can create from here
