@@ -874,3 +874,13 @@
                 Id Person: 32, Name: patito 3
                 Last name: new last name 3, Email: new email 3
                
+04:29:19 PM: DEBUG [logger_base.py:13] Message from the level debug
+04:29:19 PM: INFO [logger_base.py:14] Message from the level info
+04:29:19 PM: WARNING [logger_base.py:15] Message from the level warning
+04:29:19 PM: ERROR [logger_base.py:16] Message from the level error
+04:29:19 PM: CRITICAL [logger_base.py:17] Message from the level critical
+04:29:38 PM: DEBUG [logger_base.py:13] Message from the level debug
+04:29:38 PM: INFO [logger_base.py:14] Message from the level info
+04:29:38 PM: WARNING [logger_base.py:15] Message from the level warning
+04:29:38 PM: ERROR [logger_base.py:16] Message from the level error
+04:29:38 PM: CRITICAL [logger_base.py:17] Message from the level critical
