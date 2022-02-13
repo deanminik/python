@@ -53,8 +53,9 @@ class Connection:
 if __name__ == '__main__':
     connection1 = Connection.get_connection()
     Connection.release_connection(connection1)
-    connection2 = Connection.get_connection() # probably the machine will share the same connection to the second client
-    # connection3 = Connection.get_connection()
-    # connection4 = Connection.get_connection()
-    # connection5 = Connection.get_connection()  # here is the max
-    # connection6 = Connection.get_connection()  # we can create from here
+    connection2 = Connection.get_connection()
+    connection3 = Connection.get_connection()
+    Connection.release_connection(connection3)
+    connection4 = Connection.get_connection()
+    connection5 = Connection.get_connection()
+    connection6 = Connection.get_connection() # 6
