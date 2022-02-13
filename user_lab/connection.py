@@ -32,3 +32,26 @@ class Connection:
                 sys.exit()
         else:
             return cls._pool
+
+    @classmethod
+    def get_connection(cls):
+        # here we call the object from the pool
+        connection = cls.get_pool().getconn()
+        log.debug(f'Connection got it from the pool : {connection}')
+        return connection
+
+    @classmethod
+    def release_connection(cls, connection):
+        cls.get_pool().putconn(connection) # put back to the pool
+        log.debug(f'We put back the object connection to the pool : {connection}')
+
+    @classmethod
+    def close_connection(cls):
+        cls.get_pool().closeall() # all connection from the pool will close
+        log.debug('all connection from the pool were closed')
+
+
+if __name__ == '__main__':
+    connection1 = Connection.get_connection()
+    Connection.release_connection(connection1)
+    Connection.close_connection()
