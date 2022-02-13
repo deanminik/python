@@ -26,3 +26,51 @@
 02:57:59 AM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f3ef1e71040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 02:59:22 AM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fedb658e040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 02:59:22 AM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7fedb775a040; closed: 0> 
+07:18:48 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f843235b040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:18:48 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f8433528040; closed: 0> 
+07:19:39 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f047f76c040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:19:39 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f0480939040; closed: 0> 
+07:21:59 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f4ff09a7180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:23:20 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f2c4cec0180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:24:04 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f7701f97180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:32:29 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7ff7643d9040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:32:29 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7ff7655a6040; closed: 0> 
+07:33:28 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fee3bc66180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:33:55 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f75d9281180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:36:52 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f903f15b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:38:46 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f1994b34180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:38:46 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f1995d8c040; closed: 0> 
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 1, Name: Pedro
+                Last name: Fdz, Email: email1-@gmail.com
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 7, Name: Rita4
+                Last name: Hdz4, Email: ulacit4@hotmail.com
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:38:46 PM: DEBUG [PersonDataAccessObject.py:28] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:39:38 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f9a6681a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:39:38 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f9a67a72040; closed: 0> 
