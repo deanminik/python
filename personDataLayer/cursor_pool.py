@@ -31,3 +31,11 @@ class CursorOfPool:
         Connection.release_connection(self._connection)
 
 
+if __name__ == '__main__':
+    with CursorOfPool() as cursor:
+        log.debug('Inside the block (with)')
+        cursor.execute('SELECT * FROM person')
+        log.debug(cursor.fetchall())
+
+
+

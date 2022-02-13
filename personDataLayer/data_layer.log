@@ -560,3 +560,41 @@
 01:09:31 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f3bef5d02c0; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 01:09:31 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f3bef5d0400; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 01:09:31 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f3bef5d0540; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:50:34 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+01:50:34 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f2aa1b93ca0>
+01:50:34 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f2aa0867180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:50:34 AM: DEBUG [cursor_pool.py:36] Inside the block (with)
+01:50:34 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+01:50:34 AM: ERROR [cursor_pool.py:25] There was an error, rollback: 'psycopg2.extensions.cursor' object has no attribute 'fecthall' <class 'AttributeError'> <traceback object at 0x7f2aa0875c00>
+01:50:34 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f2aa0867180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:51:39 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+01:51:41 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fa8402f3ca0>
+01:51:41 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fa83ef48180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:51:41 AM: DEBUG [cursor_pool.py:36] Inside the block (with)
+01:51:41 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+01:51:41 AM: ERROR [cursor_pool.py:25] There was an error, rollback: 'psycopg2.extensions.cursor' object has no attribute 'fechall' <class 'AttributeError'> <traceback object at 0x7fa83ef5d1c0>
+01:51:41 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fa83ef48180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:52:01 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+01:52:01 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f0848dcfca0>
+01:52:01 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f0847a24180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:52:01 AM: DEBUG [cursor_pool.py:36] Inside the block (with)
+01:52:01 AM: DEBUG [cursor_pool.py:38] [(2, 'updated name', 'updated last name', 'updated email'), (6, 'updated name', 'updated last name', 'updated email'), (8, 'Mari', 'Barker', 'mymail@gmail.com'), (9, 'Mari', 'Barker', 'mymail@gmail.com'), (10, 'Mari', 'Barker', 'mymail@gmail.com'), (11, 'Mari', 'Barker', 'mymail@gmail.com'), (25, 'New user', 'new last name', 'new email'), (26, 'New user 2', 'new last name 2', 'new email 2'), (27, 'New user 2', 'new last name 2', 'new email 2'), (28, 'New user 2', 'new last name 2', 'new email 2'), (29, 'New user 2', 'new last name 2', 'new email 2'), (30, 'New user', 'new last name', 'new email'), (31, 'New user 3', 'new last name 3', 'new email 3'), (1, 'Update-name', 'Update-lastname', 'Update-email')]
+01:52:01 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+01:52:01 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+01:52:01 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f0847a24180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:52:53 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+01:52:53 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f2c9d028ca0>
+01:52:53 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f2c9bc7d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:52:53 AM: DEBUG [cursor_pool.py:36] Inside the block (with)
+01:52:53 AM: DEBUG [cursor_pool.py:38] [(2, 'updated name', 'updated last name', 'updated email'), (6, 'updated name', 'updated last name', 'updated email'), (8, 'Mari', 'Barker', 'mymail@gmail.com'), (9, 'Mari', 'Barker', 'mymail@gmail.com'), (10, 'Mari', 'Barker', 'mymail@gmail.com'), (11, 'Mari', 'Barker', 'mymail@gmail.com'), (25, 'New user', 'new last name', 'new email'), (26, 'New user 2', 'new last name 2', 'new email 2'), (27, 'New user 2', 'new last name 2', 'new email 2'), (28, 'New user 2', 'new last name 2', 'new email 2'), (29, 'New user 2', 'new last name 2', 'new email 2'), (30, 'New user', 'new last name', 'new email'), (31, 'New user 3', 'new last name 3', 'new email 3'), (1, 'Update-name', 'Update-lastname', 'Update-email')]
+01:52:53 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+01:52:53 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+01:52:53 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f2c9bc7d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:55:01 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+01:55:01 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f0297ecfca0>
+01:55:01 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f0296b24180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+01:55:01 AM: DEBUG [cursor_pool.py:36] Inside the block (with)
+01:55:01 AM: DEBUG [cursor_pool.py:38] [(2, 'updated name', 'updated last name', 'updated email'), (6, 'updated name', 'updated last name', 'updated email'), (8, 'Mari', 'Barker', 'mymail@gmail.com'), (9, 'Mari', 'Barker', 'mymail@gmail.com'), (10, 'Mari', 'Barker', 'mymail@gmail.com'), (11, 'Mari', 'Barker', 'mymail@gmail.com'), (25, 'New user', 'new last name', 'new email'), (26, 'New user 2', 'new last name 2', 'new email 2'), (27, 'New user 2', 'new last name 2', 'new email 2'), (28, 'New user 2', 'new last name 2', 'new email 2'), (29, 'New user 2', 'new last name 2', 'new email 2'), (30, 'New user', 'new last name', 'new email'), (31, 'New user 3', 'new last name 3', 'new email 3'), (1, 'Update-name', 'Update-lastname', 'Update-email')]
+01:55:01 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+01:55:01 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+01:55:01 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f0296b24180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
