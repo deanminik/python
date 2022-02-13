@@ -519,3 +519,18 @@
                 Id Person: 31, Name: New user 3
                 Last name: new last name 3, Email: new email 3
                
+12:23:51 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fb216615ca0>
+12:23:51 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb2152d6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:23:51 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb2152d62c0; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:11 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fb63fa0bca0>
+12:25:11 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb63e6cc180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:11 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb63e6cc2c0; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:11 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb63e6cc400; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:11 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb63e6cc540; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:11 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7fb63e6cc680; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:35 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f851df9bca0>
+12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c2c0; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c400; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c540; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+12:25:35 AM: DEBUG [connection.py:39] Connection got it from the pool: <connection object at 0x7f851cc5c680; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>

@@ -35,8 +35,15 @@ class Connection:
 
     @classmethod
     def get_connection(cls):
-        pass
+        connection = cls.get_pool().getconn() # get conn is to call the pool and get an object connection
+        log.debug(f'Connection got it from the pool: {connection}')
+        return connection
 
 
 if __name__ == '__main__':
-    pass
+    connection1 = Connection.get_connection()
+    connection2 = Connection.get_connection()
+    connection3 = Connection.get_connection()
+    connection4 = Connection.get_connection()
+    connection5 = Connection.get_connection() # here is the max
+    connection6 = Connection.get_connection() # we can create from here
