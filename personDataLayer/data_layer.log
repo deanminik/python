@@ -598,3 +598,279 @@
 01:55:01 AM: DEBUG [cursor_pool.py:22] Execute the method exit
 01:55:01 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
 01:55:01 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f0296b24180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:09:01 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+02:09:01 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f0bb00a2bb0>
+02:09:01 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f0bb007b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:09:01 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+02:09:01 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+02:09:01 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f0bb007b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+02:09:01 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+02:10:14 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+02:10:14 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f6599030be0>
+02:10:14 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f659902b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:10:14 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+02:10:14 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+02:10:14 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f659902b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+02:10:14 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+02:11:38 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+02:11:38 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fa359652ac0>
+02:11:38 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fa35964a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:32] Person to insert : 
+                Id Person: None, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               
+02:11:38 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+02:11:38 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+02:11:38 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fa35964a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:56] Persons inserted : 1
+02:11:38 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+02:11:38 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fa35964a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:11:38 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+02:11:38 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+02:11:38 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fa35964a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+02:11:38 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 32, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               
+02:12:53 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+02:12:53 AM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fa44a9cbc40>
+02:12:53 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fa44a9c5180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:40] Person Updated :
+                Id Person: 7, Name: lukas
+                Last name: Update-lastname 6, Email: Update-email 6
+               
+02:12:53 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+02:12:53 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+02:12:53 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fa44a9c5180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:61] Persons Updated: 0
+02:12:53 AM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+02:12:53 AM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fa44a9c5180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:12:53 AM: DEBUG [cursor_pool.py:22] Execute the method exit
+02:12:53 AM: DEBUG [cursor_pool.py:28] Commit of the transaction
+02:12:53 AM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fa44a9c5180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+02:12:53 AM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 32, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               
