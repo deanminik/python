@@ -74,3 +74,448 @@
                
 07:39:38 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f9a6681a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 07:39:38 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f9a67a72040; closed: 0> 
+08:13:23 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f50a616f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:13:23 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user
+                Last name: new last name, Email: new email
+               
+08:14:33 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f36913bd180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user
+                Last name: new last name, Email: new email
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:38] Persons inserted : 1
+08:14:33 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f3692615040; closed: 0> 
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 1, Name: Pedro
+                Last name: Fdz, Email: email1-@gmail.com
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 7, Name: Rita4
+                Last name: Hdz4, Email: ulacit4@hotmail.com
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:14:33 PM: DEBUG [PersonDataAccessObject.py:43] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+08:16:48 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f0f37b2c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:16:48 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f0f38d84040; closed: 0> 
+08:16:48 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:16:48 PM: DEBUG [PersonDataAccessObject.py:39] Persons inserted : 1
+08:16:52 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7eff5e56d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:16:52 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7eff5f7c4040; closed: 0> 
+08:16:52 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:16:52 PM: DEBUG [PersonDataAccessObject.py:39] Persons inserted : 1
+08:18:04 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fe59e95c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:18:04 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7fe59fbb4040; closed: 0> 
+08:18:04 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:18:05 PM: DEBUG [PersonDataAccessObject.py:39] Persons inserted : 1
+08:19:12 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fbe5ea4a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:19:12 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7fbe5fca2040; closed: 0> 
+08:19:13 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:19:13 PM: DEBUG [PersonDataAccessObject.py:39] Persons inserted : 1
+08:19:54 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fd947712180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:19:54 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7fd94896a040; closed: 0> 
+08:19:54 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user
+                Last name: new last name, Email: new email
+               
+08:19:54 PM: DEBUG [PersonDataAccessObject.py:39] Persons inserted : 1
+08:21:07 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f200f63c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:31] Person to insert : 
+                Id Person: None, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:39] Persons inserted : 1
+08:21:07 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f2010894040; closed: 0> 
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 1, Name: Pedro
+                Last name: Fdz, Email: email1-@gmail.com
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 7, Name: Rita4
+                Last name: Hdz4, Email: ulacit4@hotmail.com
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+08:21:07 PM: DEBUG [PersonDataAccessObject.py:44] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+09:06:53 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7ffb7caa3180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:06:53 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7ffb7dcfc040; closed: 0> 
+09:09:36 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f7a91ec0180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:09:36 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f7a93119040; closed: 0> 
+09:10:51 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f9825b4f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:10:51 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f9826da8040; closed: 0> 
+09:12:19 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f235adac180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:12:19 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f235c004040; closed: 0> 
+09:12:53 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f09ff14b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:12:53 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f0a003a3040; closed: 0> 
+09:12:53 PM: DEBUG [PersonDataAccessObject.py:40] Person Updated :
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+09:12:53 PM: DEBUG [PersonDataAccessObject.py:53] Persons Updated: 1
+09:15:37 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f735d920180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:15:37 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f735eb78040; closed: 0> 
+09:15:37 PM: DEBUG [PersonDataAccessObject.py:40] Person Updated :
+                Id Person: 7, Name: Update-name 3
+                Last name: Update-lastname 3, Email: Update-email 3
+               
+09:15:37 PM: DEBUG [PersonDataAccessObject.py:53] Persons Updated: 1
+09:16:43 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f4705b1a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:16:43 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f4706d72040; closed: 0> 
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 7, Name: Update-name 3
+                Last name: Update-lastname 3, Email: Update-email 3
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+09:16:43 PM: DEBUG [PersonDataAccessObject.py:58] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+09:19:48 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f43290f3180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:19:48 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f432a34c040; closed: 0> 
+09:19:48 PM: DEBUG [PersonDataAccessObject.py:41] Person Updated :
+                Id Person: 7, Name: Update-name 4
+                Last name: Update-lastname 4, Email: Update-email 4
+               
+09:19:48 PM: DEBUG [PersonDataAccessObject.py:54] Persons Updated: 1
+09:20:37 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7ffbb9411180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:20:37 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7ffbba669040; closed: 0> 
+09:20:37 PM: DEBUG [PersonDataAccessObject.py:41] Person Updated :
+                Id Person: 7, Name: Update-name 5
+                Last name: Update-lastname 5, Email: Update-email 5
+               
+09:20:37 PM: DEBUG [PersonDataAccessObject.py:54] Persons Updated: 1
+09:22:08 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7fa4ce0fb180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:22:08 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7fa4cf353040; closed: 0> 
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:41] Person Updated :
+                Id Person: 7, Name: Update-name 5
+                Last name: Update-lastname 5, Email: Update-email 5
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:54] Persons Updated: 1
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 7, Name: Update-name 5
+                Last name: Update-lastname 5, Email: Update-email 5
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+09:22:08 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+09:22:29 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f8d5af4a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:22:29 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f8d5c1a2040; closed: 0> 
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:41] Person Updated :
+                Id Person: 7, Name: Update-name 6
+                Last name: Update-lastname 6, Email: Update-email 6
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:54] Persons Updated: 1
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 7, Name: Update-name 6
+                Last name: Update-lastname 6, Email: Update-email 6
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+09:22:29 PM: DEBUG [PersonDataAccessObject.py:59] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+09:26:43 PM: DEBUG [connection.py:25] Connection successful :<connection object at 0x7f9ee827f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:26:43 PM: DEBUG [connection.py:38] the cursor has opened correctly : <cursor object at 0x7f9ee94d7040; closed: 0> 
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:50] Person Deleted :
+                Id Person: 7, Name: None
+                Last name: None, Email: None
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:68] Persons Deleted: 1
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+09:26:43 PM: DEBUG [PersonDataAccessObject.py:73] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
