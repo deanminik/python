@@ -56,9 +56,9 @@ if __name__ == '__main__':
     # log.debug(f'Persons inserted : {persons_inserted}')
 
     # -> Update an object
-    person1 = Person(7, 'lukas', 'Update-lastname 6', 'Update-email 6')
-    persons_updated = PersonDAO.update(person1)
-    log.debug(f'Persons Updated: {persons_updated}')
+    # person1 = Person(7, 'lukas', 'Update-lastname 6', 'Update-email 6')
+    # persons_updated = PersonDAO.update(person1)
+    # log.debug(f'Persons Updated: {persons_updated}')
 
     # -> Delete an object
     # person1 = Person(id_person=7)

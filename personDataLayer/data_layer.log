@@ -884,3 +884,267 @@
 04:29:38 PM: WARNING [logger_base.py:15] Message from the level warning
 04:29:38 PM: ERROR [logger_base.py:16] Message from the level error
 04:29:38 PM: CRITICAL [logger_base.py:17] Message from the level critical
+07:14:03 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:14:03 PM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fb60af89a00>
+07:14:03 PM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fb60af87180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:14:03 PM: DEBUG [cursor_pool.py:22] Execute the method exit
+07:14:03 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:14:03 PM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fb60af87180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+07:14:03 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 32, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               
+07:24:16 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:24:16 PM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f6f13d3cbe0>
+07:24:16 PM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f6f13d37180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:24:16 PM: DEBUG [cursor_pool.py:22] Execute the method exit
+07:24:16 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:24:16 PM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f6f13d37180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+07:24:16 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 32, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               
+08:01:07 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:01:07 PM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7fee516b9be0>
+08:01:07 PM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7fee516b4180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:01:07 PM: DEBUG [cursor_pool.py:22] Execute the method exit
+08:01:07 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:01:07 PM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7fee516b4180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+08:01:07 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 32, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               
+08:33:58 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:33:58 PM: DEBUG [connection.py:27] Creation of pool successful : <psycopg2.pool.SimpleConnectionPool object at 0x7f64559e4be0>
+08:33:58 PM: DEBUG [connection.py:38] Connection got it from the pool: <connection object at 0x7f64559df180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:33:58 PM: DEBUG [cursor_pool.py:22] Execute the method exit
+08:33:58 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:33:58 PM: DEBUG [connection.py:45] We put back the connection to the pool: <connection object at 0x7f64559df180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 1, Name: Update-name
+                Last name: Update-lastname, Email: Update-email
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 2, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 6, Name: updated name
+                Last name: updated last name, Email: updated email
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 8, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 9, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 10, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 11, Name: Mari
+                Last name: Barker, Email: mymail@gmail.com
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 25, Name: New user
+                Last name: new last name, Email: new email
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 26, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 27, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 28, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 29, Name: New user 2
+                Last name: new last name 2, Email: new email 2
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 30, Name: New user
+                Last name: new last name, Email: new email
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 31, Name: New user 3
+                Last name: new last name 3, Email: new email 3
+               
+08:33:58 PM: DEBUG [PersonDataAccessObject.py:71] 
+                Id Person: 32, Name: patito 3
+                Last name: new last name 3, Email: new email 3
+               

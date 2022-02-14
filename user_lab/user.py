@@ -8,8 +8,12 @@ class User:
         self._username = username
         self._password = password
 
-    def __enter__(self):
-        return f'Id User: {self._id_user}, Username: {self._username} Password: {self._password}'
+    def __str__(self):
+        return f'''
+                    Id User: {self._id_user}, 
+                    Username: {self._username}, 
+                    Password: {self._password}
+                '''
 
     # getter and setter
     @property
@@ -35,7 +39,6 @@ class User:
     @password.setter
     def password(self, password):
         self._password = password
-
 
 
 if __name__ == '__main__':

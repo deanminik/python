@@ -45,3 +45,544 @@
 06:45:01 PM: DEBUG [cursor_pool.py:22] Start the method exit
 06:45:01 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
 06:45:01 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7feb1d042180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:07:19 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:07:19 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fb065e9d190>
+07:07:19 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fb064b34180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:07:19 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:07:19 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:07:19 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fb064b34180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:07:19 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7fb064b35eb0>
+07:07:19 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7fb064b35df0>
+07:07:19 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7fb064b35f70>
+07:11:41 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:11:41 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fdb22a10190>
+07:11:41 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fdb216a8180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:11:41 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:11:41 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:11:41 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fdb216a8180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:11:41 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7fdb216a9eb0>
+07:11:41 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7fdb216a9df0>
+07:11:41 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7fdb216a9f70>
+07:12:51 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:12:51 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7efcf75cdca0>
+07:12:51 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7efcf6222180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:12:51 PM: DEBUG [cursor_pool.py:36] Inside the block (with)
+07:12:51 PM: DEBUG [cursor_pool.py:38] [(2, 'Michael', '123'), (3, 'Lucas', '456'), (4, 'Pedro', '789')]
+07:12:51 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:12:51 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:12:51 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7efcf6222180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:13:06 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:13:06 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f98cc9d3190>
+07:13:06 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f98cb66a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:13:06 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:13:06 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:13:06 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f98cb66a180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:13:06 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f98cb66ceb0>
+07:13:06 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f98cb66cdf0>
+07:13:06 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f98cb66cf70>
+07:20:17 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:20:17 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f44eaa5c190>
+07:20:17 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f44e96f3180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:20:17 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:20:17 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:20:17 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f44e96f3180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:20:17 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f44e96f4eb0>
+07:20:17 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f44e96f4df0>
+07:20:17 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f44e96f4f70>
+07:21:48 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:21:48 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f5738b1f190>
+07:21:48 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f57377b6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:21:48 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:21:48 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:21:48 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f57377b6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:21:48 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f57377b7eb0>
+07:21:48 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f57377b7df0>
+07:21:48 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f57377b7f70>
+07:23:21 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:23:21 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f8b849d7190>
+07:23:21 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f8b8366e180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:23:21 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:23:21 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:23:21 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f8b8366e180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:23:21 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f8b8366feb0>
+07:23:21 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f8b8366fdf0>
+07:23:21 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f8b8366ff70>
+07:24:30 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:24:30 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f4f7fd7f190>
+07:24:30 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f4f7ea16180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:24:30 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:24:30 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:24:30 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f4f7ea16180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:24:30 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f4f7ea18eb0>
+07:24:30 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f4f7ea18df0>
+07:24:30 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f4f7ea18f70>
+07:25:05 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:25:05 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f37c6170190>
+07:25:05 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f37c4e07180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:25:05 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:25:05 PM: ERROR [cursor_pool.py:25] There was an error, rollback: column "id_user" does not exist
+LINE 1: SELECT * FROM User ORDER BY id_user
+                                    ^
+HINT:  Perhaps you meant to reference the column "user.user".
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x7f37c4e16d40>
+07:25:05 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f37c4e07180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:25:34 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:25:34 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f1cd5ba2190>
+07:25:34 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f1cd4839180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:25:34 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:25:34 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:25:34 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f1cd4839180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:25:34 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f1cd483aeb0>
+07:25:34 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f1cd483adf0>
+07:25:34 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f1cd483af70>
+07:29:01 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:29:01 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f693fd12190>
+07:29:01 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f693e9a9180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:29:01 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:29:01 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:29:01 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f693e9a9180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:29:01 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f693e9aaeb0>
+07:29:01 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f693e9aadf0>
+07:29:01 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f693e9aaf70>
+07:29:45 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:29:45 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f32e087d190>
+07:29:45 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f32df514180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:29:45 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:29:45 PM: ERROR [cursor_pool.py:25] There was an error, rollback: column "usernamne" does not exist
+LINE 1: SELECT usernamne FROM public."User"
+               ^
+HINT:  Perhaps you meant to reference the column "User.username".
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x7f32df523ac0>
+07:29:45 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f32df514180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:30:00 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:30:00 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f5b7634d190>
+07:30:00 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f5b74fe5180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:30:00 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:30:00 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:30:00 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f5b74fe5180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:30:00 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f5b74fe6af0>
+07:30:00 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f5b74fe6f70>
+07:30:00 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f5b74ff8040>
+07:30:19 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:30:19 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f7ccecd1190>
+07:30:19 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f7ccd968180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:30:19 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:30:19 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:30:19 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f7ccd968180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:30:19 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f7ccd969eb0>
+07:30:19 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f7ccd969df0>
+07:30:19 PM: DEBUG [userDAO.py:28] <user_lab.user.User object at 0x7f7ccd969f70>
+07:30:57 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:30:57 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fefe48e8190>
+07:30:57 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fefe357f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:30:57 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:30:57 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:30:57 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fefe357f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:32:41 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:32:41 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fbc3c0a7190>
+07:32:41 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fbc3ad3f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:32:41 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:32:41 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:32:41 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fbc3ad3f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:32:41 PM: DEBUG [userDAO.py:29] <user_lab.user.User object at 0x7fbc3ad40eb0>
+07:32:41 PM: DEBUG [userDAO.py:29] <user_lab.user.User object at 0x7fbc3ad40df0>
+07:32:41 PM: DEBUG [userDAO.py:29] <user_lab.user.User object at 0x7fbc3ad40f70>
+07:53:35 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:53:35 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f5fc08ec190>
+07:53:35 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f5fbf583180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:53:35 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:53:35 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:53:35 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f5fbf583180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:53:35 PM: DEBUG [userDAO.py:30] <user_lab.user.User object at 0x7f5fbf584e80>
+07:53:35 PM: DEBUG [userDAO.py:30] <user_lab.user.User object at 0x7f5fbf584fd0>
+07:53:35 PM: DEBUG [userDAO.py:30] <user_lab.user.User object at 0x7f5fbf584f40>
+07:54:02 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:54:02 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f43ccd53190>
+07:54:02 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f43cb9ea180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:54:02 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:54:02 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:54:02 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f43cb9ea180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:54:02 PM: DEBUG [userDAO.py:30] <user_lab.user.User object at 0x7f43cb9ebe80>
+07:54:02 PM: DEBUG [userDAO.py:30] <user_lab.user.User object at 0x7f43cb9ebfd0>
+07:54:02 PM: DEBUG [userDAO.py:30] <user_lab.user.User object at 0x7f43cb9ebf40>
+07:54:36 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+07:54:36 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f378f1b0190>
+07:54:36 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f378de48180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:54:36 PM: DEBUG [cursor_pool.py:22] Start the method exit
+07:54:36 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+07:54:36 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f378de48180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+07:54:36 PM: DEBUG [userDAO.py:29] <user_lab.user.User object at 0x7f378de49eb0>
+07:54:36 PM: DEBUG [userDAO.py:29] <user_lab.user.User object at 0x7f378de49df0>
+07:54:36 PM: DEBUG [userDAO.py:29] <user_lab.user.User object at 0x7f378de49f70>
+08:00:29 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:00:29 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f43426f7f40>
+08:00:29 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f43426f6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:00:29 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:00:29 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:00:29 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f43426f6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:00:29 PM: DEBUG [userDAO.py:56] <user_lab.user.User object at 0x7f43426f7f70>
+08:00:29 PM: DEBUG [userDAO.py:56] <user_lab.user.User object at 0x7f434270a040>
+08:00:29 PM: DEBUG [userDAO.py:56] <user_lab.user.User object at 0x7f434270a0a0>
+08:04:32 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:04:32 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fba637dcfa0>
+08:04:32 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fba637db180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:04:32 PM: DEBUG [userDAO.py:29] Person to insert : <user_lab.user.User object at 0x7fba64b433a0>
+08:04:32 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:04:32 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:04:32 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fba637db180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:04:32 PM: DEBUG [userDAO.py:53] Persons inserted : 1
+08:14:45 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:14:45 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f5d39ac3fa0>
+08:14:45 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f5d39ac2180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:14:45 PM: DEBUG [userDAO.py:37] Person Updated :<user_lab.user.User object at 0x7f5d3ae2a3a0>
+08:14:45 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:14:45 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:14:45 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f5d39ac2180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:14:45 PM: DEBUG [userDAO.py:58] Users Updated4
+08:19:07 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:19:07 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7ff551809fa0>
+08:19:07 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7ff551808180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:19:07 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:19:07 PM: ERROR [cursor_pool.py:25] There was an error, rollback: column "id_person" does not exist
+LINE 1: ...User" SET username='patito4', password=NULL WHERE id_person=...
+                                                             ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x7ff55181c040>
+08:19:07 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7ff551808180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:20:13 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:20:13 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f55bc223fa0>
+08:20:13 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f55bc222180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:20:13 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:20:13 PM: ERROR [cursor_pool.py:25] There was an error, rollback: column "id_person" does not exist
+LINE 1: ...ublic."User" SET username='444', password=2 WHERE id_person=...
+                                                             ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x7f55bc235080>
+08:20:13 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f55bc222180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:20:57 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:20:57 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f8e38d9dfa0>
+08:20:57 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f8e38d9c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:20:57 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:20:57 PM: ERROR [cursor_pool.py:25] There was an error, rollback: invalid input syntax for type integer: "patito4"
+LINE 1: ...User" SET username='444', password=2 WHERE id_user='patito4'
+                                                              ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x7f8e38db0080>
+08:20:57 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f8e38d9c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:21:54 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:21:54 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f0639df3fa0>
+08:21:54 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f0639df2180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:21:54 PM: DEBUG [userDAO.py:37] Person Updated :<user_lab.user.User object at 0x7f063b15a3a0>
+08:21:54 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:21:54 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:21:54 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f0639df2180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:21:54 PM: DEBUG [userDAO.py:58] Users Updated: 1
+08:23:19 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:23:19 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f79fca0ffd0>
+08:23:19 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f79fca0e180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:23:19 PM: DEBUG [userDAO.py:37] Person Updated :<user_lab.user.User object at 0x7f79fdd763a0>
+08:23:19 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:23:19 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:23:19 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f79fca0e180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:23:19 PM: DEBUG [userDAO.py:58] Users Updated: 1
+08:27:11 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:27:11 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f84ec48efd0>
+08:27:11 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f84ec48d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:27:11 PM: DEBUG [userDAO.py:45] Person Deleted :<user_lab.user.User object at 0x7f84ed7f53a0>
+08:27:11 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:27:11 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:27:11 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f84ec48d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:27:11 PM: DEBUG [userDAO.py:63] User Deleted: 1
+08:29:00 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:29:00 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fbec0090f40>
+08:29:00 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fbec008f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:29:00 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:29:00 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:29:00 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fbec008f180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:29:00 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fbec0090f70>
+08:29:00 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fbec00a3040>
+08:29:00 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fbec00a30a0>
+08:31:40 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:31:40 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fc17727df40>
+08:31:40 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fc17727c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:31:40 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:31:40 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:31:40 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fc17727c180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:31:40 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fc17727df70>
+08:31:40 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fc177290040>
+08:31:40 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fc1772900a0>
+08:32:00 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:32:00 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f3b695f8f40>
+08:32:00 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f3b695f7180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:32:00 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:32:00 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:32:00 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f3b695f7180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:32:00 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7f3b695f8f70>
+08:32:00 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7f3b6960b040>
+08:32:00 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7f3b6960b0a0>
+08:35:23 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:35:28 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7efd905bfca0>
+08:35:28 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7efd8f214180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:35:28 PM: DEBUG [cursor_pool.py:36] Inside the block (with)
+08:35:28 PM: DEBUG [cursor_pool.py:38] [(3, 'patito 4', '4'), (4, 'patito 4', '4'), (2, None, '44455555')]
+08:35:28 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:35:28 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:35:28 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7efd8f214180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:41:35 PM: DEBUG [user.py:42] <__main__.User object at 0x7f7113ee8d30>
+08:41:35 PM: DEBUG [user.py:45] <__main__.User object at 0x7f7113ee8ca0>
+08:41:35 PM: DEBUG [user.py:48] <__main__.User object at 0x7f7113ee8ca0>
+08:44:20 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:44:20 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f264cf65a30>
+08:44:20 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f264cf42180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:44:20 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:44:20 PM: ERROR [cursor_pool.py:25] There was an error, rollback: 'User' object has no attribute 'append' <class 'AttributeError'> <traceback object at 0x7f264cf6c9c0>
+08:44:20 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f264cf42180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:44:30 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:44:30 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fd4735a3f40>
+08:44:30 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fd4735a2180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:44:30 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:44:30 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:44:30 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fd4735a2180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:44:30 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fd4735a3f70>
+08:44:30 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fd4735b6040>
+08:44:30 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7fd4735b60a0>
+08:47:25 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+08:47:25 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f6c3bdc6ca0>
+08:47:25 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f6c3aa1b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+08:47:25 PM: DEBUG [cursor_pool.py:36] Inside the block (with)
+08:47:25 PM: DEBUG [cursor_pool.py:38] [(3, 'patito 4', '4'), (4, 'patito 4', '4'), (2, None, '44455555')]
+08:47:25 PM: DEBUG [cursor_pool.py:22] Start the method exit
+08:47:25 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+08:47:25 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f6c3aa1b180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:02:01 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:02:01 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f6abbdb0190>
+09:02:01 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f6abaa5d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:02:01 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:02:01 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:02:01 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f6abaa5d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:02:01 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7f6abbc9d3d0>
+09:02:01 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7f6abaa60970>
+09:02:01 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7f6abaa609a0>
+09:02:59 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:02:59 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fcb1d01cca0>
+09:02:59 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fcb1bc71180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:02:59 PM: DEBUG [cursor_pool.py:36] Inside the block (with)
+09:02:59 PM: DEBUG [cursor_pool.py:38] [(3, 'patito 4', '4'), (4, 'patito 4', '4'), (2, None, '44455555')]
+09:02:59 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:02:59 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:02:59 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fcb1bc71180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:05:05 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:05:05 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f5eb13c7f40>
+09:05:05 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f5eb13c6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:05:05 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:05:05 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:05:05 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f5eb13c6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:05:05 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7f5eb13c7f70>
+09:05:05 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7f5eb13da040>
+09:05:05 PM: DEBUG [userDAO.py:68] <user_lab.user.User object at 0x7f5eb13da0a0>
+09:05:44 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:05:44 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7fe2415ea190>
+09:05:44 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7fe240283180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:05:44 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:05:44 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:05:44 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7fe240283180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:05:44 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7fe2415ea640>
+09:05:44 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7fe2402921c0>
+09:05:44 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7fe2402921f0>
+09:07:21 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:07:21 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f14bc6c7fa0>
+09:07:21 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f14bc6c6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:07:21 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:07:21 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:07:21 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f14bc6c6180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:08:18 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:08:18 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f16ea91efa0>
+09:08:18 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f16ea91d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:08:18 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:08:18 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:08:18 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f16ea91d180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:08:18 PM: DEBUG [userDAO.py:69] (2, None, '44455555')
+09:08:18 PM: DEBUG [userDAO.py:69] (3, 'patito 4', '4')
+09:08:18 PM: DEBUG [userDAO.py:69] (4, 'patito 4', '4')
+09:08:57 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:08:57 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7ff68db74190>
+09:08:57 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7ff68c822180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:08:57 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:08:57 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:08:57 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7ff68c822180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:08:57 PM: INFO [manuApp.py:16] (2, None, '44455555')
+09:08:57 PM: INFO [manuApp.py:16] (3, 'patito 4', '4')
+09:08:57 PM: INFO [manuApp.py:16] (4, 'patito 4', '4')
+09:13:46 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:13:46 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7eff8f536a30>
+09:13:46 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7eff8f513180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:13:46 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:13:46 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:13:46 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7eff8f513180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:13:46 PM: DEBUG [userDAO.py:69] <user_lab.user.User object at 0x7eff8f536b20>
+09:13:46 PM: DEBUG [userDAO.py:69] <user_lab.user.User object at 0x7eff8f53e190>
+09:13:46 PM: DEBUG [userDAO.py:69] <user_lab.user.User object at 0x7eff8f53e1c0>
+09:14:01 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:14:01 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f469ede4190>
+09:14:01 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f469da92180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:14:01 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:14:01 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:14:01 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f469da92180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:14:01 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7f469ecd13d0>
+09:14:01 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7f469da94970>
+09:14:01 PM: INFO [manuApp.py:16] <user_lab.user.User object at 0x7f469da949a0>
+09:15:01 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:15:01 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f7dc633ca30>
+09:15:01 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f7dc6319180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:15:01 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:15:01 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:15:01 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f7dc6319180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:15:01 PM: DEBUG [userDAO.py:69] <user_lab.user.User object at 0x7f7dc633cb20>
+09:15:01 PM: DEBUG [userDAO.py:69] <user_lab.user.User object at 0x7f7dc6344190>
+09:15:01 PM: DEBUG [userDAO.py:69] <user_lab.user.User object at 0x7f7dc63441c0>
+09:29:50 PM: DEBUG [cursor_pool.py:13] Start the method (with __enter__)
+09:29:50 PM: DEBUG [connection.py:28] Creation of the pool in the project user lab was successful :<psycopg2.pool.SimpleConnectionPool object at 0x7f02dbb39a30>
+09:29:50 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f02dbb16180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:29:50 PM: DEBUG [cursor_pool.py:22] Start the method exit
+09:29:50 PM: DEBUG [cursor_pool.py:28] Commit of the transaction
+09:29:50 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f02dbb16180; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
+09:29:50 PM: DEBUG [userDAO.py:69] 
+                    Id User: 2, 
+                    Username: None, 
+                    Password: 44455555
+                
+09:29:50 PM: DEBUG [userDAO.py:69] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:29:50 PM: DEBUG [userDAO.py:69] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:31:31 PM: INFO [manuApp.py:16] 
+                    Id User: 2, 
+                    Username: None, 
+                    Password: 44455555
+                
+09:31:31 PM: INFO [manuApp.py:16] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:31:31 PM: INFO [manuApp.py:16] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:42:04 PM: INFO [manuApp.py:17] 
+                    Id User: 2, 
+                    Username: None, 
+                    Password: 44455555
+                
+09:42:04 PM: INFO [manuApp.py:17] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:42:04 PM: INFO [manuApp.py:17] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:42:55 PM: INFO [manuApp.py:23] Users inserted: 1
+09:43:01 PM: INFO [manuApp.py:17] 
+                    Id User: 2, 
+                    Username: None, 
+                    Password: 44455555
+                
+09:43:01 PM: INFO [manuApp.py:17] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:43:01 PM: INFO [manuApp.py:17] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:43:01 PM: INFO [manuApp.py:17] 
+                    Id User: 6, 
+                    Username: this is a new username, 
+                    Password: 44455555
+                
+09:43:35 PM: INFO [manuApp.py:17] 
+                    Id User: 2, 
+                    Username: None, 
+                    Password: 44455555
+                
+09:43:35 PM: INFO [manuApp.py:17] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:43:35 PM: INFO [manuApp.py:17] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:43:35 PM: INFO [manuApp.py:17] 
+                    Id User: 6, 
+                    Username: this is a new username, 
+                    Password: 44455555
+                
+09:44:13 PM: INFO [manuApp.py:30] User updated : 1
+09:44:19 PM: INFO [manuApp.py:17] 
+                    Id User: 2, 
+                    Username: look, 
+                    Password: 44455555
+                
+09:44:19 PM: INFO [manuApp.py:17] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:44:19 PM: INFO [manuApp.py:17] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:44:19 PM: INFO [manuApp.py:17] 
+                    Id User: 6, 
+                    Username: this is a new username, 
+                    Password: 44455555
+                
+09:44:25 PM: INFO [manuApp.py:17] 
+                    Id User: 2, 
+                    Username: look, 
+                    Password: 44455555
+                
+09:44:25 PM: INFO [manuApp.py:17] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:44:25 PM: INFO [manuApp.py:17] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:44:25 PM: INFO [manuApp.py:17] 
+                    Id User: 6, 
+                    Username: this is a new username, 
+                    Password: 44455555
+                
+09:44:36 PM: INFO [manuApp.py:35] Users deleted : 1
+09:44:38 PM: INFO [manuApp.py:17] 
+                    Id User: 3, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:44:38 PM: INFO [manuApp.py:17] 
+                    Id User: 4, 
+                    Username: patito 4, 
+                    Password: 4
+                
+09:44:38 PM: INFO [manuApp.py:17] 
+                    Id User: 6, 
+                    Username: this is a new username, 
+                    Password: 44455555
+                
