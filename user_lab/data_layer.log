@@ -15,3 +15,9 @@
 05:32:00 PM: DEBUG [connection.py:40] Connection got it from the pool : <connection object at 0x7f0425204040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 05:32:00 PM: DEBUG [connection.py:46] We put back the object connection to the pool : <connection object at 0x7f0425204040; dsn: 'user=linuxdev password=xxx dbname=test_db_udemy host=localhost port=5432', closed: 0>
 05:32:00 PM: DEBUG [connection.py:51] all connection from the pool were closed
+06:23:54 PM: DEBUG [user.py:43] <__main__.User object at 0x7f184fd05d30>
+06:23:54 PM: DEBUG [user.py:46] <__main__.User object at 0x7f184fd05ca0>
+06:23:54 PM: DEBUG [user.py:49] <__main__.User object at 0x7f184fd05ca0>
+06:24:17 PM: DEBUG [user.py:43] <__main__.User object at 0x7f098cbd3d30>
+06:24:17 PM: DEBUG [user.py:46] <__main__.User object at 0x7f098cbd3ca0>
+06:24:17 PM: DEBUG [user.py:49] <__main__.User object at 0x7f098cbd3ca0>
