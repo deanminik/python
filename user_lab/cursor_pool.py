@@ -1,5 +1,5 @@
 from logger_base import log
-from personDataLayer.connection import Connection
+from user_lab.connection import Connection
 
 
 class CursorOfPool:
@@ -15,12 +15,12 @@ class CursorOfPool:
         self._cursor = self._connection.cursor()
         return self._cursor
 
-    # end (with)
+        # end (with)
     def __exit__(self, exc_type, exc_value, exc_detail):
         # correct -> commit
         # incorrect -> roll back
-        log.debug('Execute the method exit')
-        if exc_value: # if different to None
+        log.debug('Start the method exit')
+        if exc_value:  # if different to None
             self._connection.rollback()
             log.error(f'There was an error, rollback: {exc_value} {exc_type} {exc_detail}')
         else:
@@ -34,8 +34,6 @@ class CursorOfPool:
 if __name__ == '__main__':
     with CursorOfPool() as cursor:
         log.debug('Inside the block (with)')
-        cursor.execute('SELECT * FROM person')
+        cursor.execute('SELECT * FROM public."User"')
         log.debug(cursor.fetchall())
-
-
 

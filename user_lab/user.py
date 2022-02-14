@@ -9,7 +9,7 @@ class User:
         self._password = password
 
     def __enter__(self):
-        return f'Id User: {self._id_user}, User Name: {self._username} Last name: {self._password}'
+        return f'Id User: {self._id_user}, Username: {self._username} Password: {self._password}'
 
     # getter and setter
     @property
