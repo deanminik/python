@@ -40,3 +40,48 @@ print(person_with_values)
 """
 Name: roy, lastname: hdz
 """
+
+# Practice
+# convert of temperature
+class TemperatureConverter:
+
+      MAX_CELSIUS = 100
+      MAX_FAHRENHEIT = 213
+      # IMPORTANT: in python there is not constance so the community consider simulating with son practices
+      # using uppercase with the class variable and underscore
+
+      @classmethod
+      def c_f(cls, celsius):
+          if celsius > cls.MAX_CELSIUS:
+              raise ValueError(f'Temperature C too height: {celsius}')
+          return celsius * 9/5 + 32
+
+      @classmethod
+      def f_c(cls,fahrenheit):
+          if fahrenheit > cls.MAX_FAHRENHEIT:
+              raise ValueError(f'Temperature F too height: {fahrenheit}')
+          return (fahrenheit-32) * 5/9
+
+
+if __name__ == '__main__':
+    result = TemperatureConverter.c_f(15)
+    print(result)
+    """
+    59.0
+    """
+    result = TemperatureConverter.f_c(10)
+    print(result)
+    """
+    -12.222222222222221
+    """
+    result = TemperatureConverter.c_f(150)
+    print(result)
+    """
+    Traceback (most recent call last):
+  File "/home/lite/PycharmProject/LabGeometric/venv/deepInPOO/constructor_overloading_sobrecarga.py", line 77, in <module>
+    result = TemperatureConverter.c_f(150)
+  File "/home/lite/PycharmProject/LabGeometric/venv/deepInPOO/constructor_overloading_sobrecarga.py", line 56, in c_f
+    raise ValueError(f'Temperature C too height: {celsius}')
+ValueError: Temperature C too height: 150
+    """
+
