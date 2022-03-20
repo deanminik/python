@@ -12,6 +12,7 @@ class Class2(Class1):
 
     def method(self):
         print('class 2 method')
+        super().method()
 
 
 class Class3(Class1):
@@ -20,13 +21,14 @@ class Class3(Class1):
 
     def method(self):
         print('class 3 method')
+        super().method()
 
 
 
 class Class4(Class2,Class3):
     def method(self):
       print('class 4 method')
-    #pass
+      super().method()
 
 class4 = Class4()
 """
@@ -74,4 +76,12 @@ AttributeError: 'Class4' object has no attribute 'method'
 # you can change the order of 2 to 3 just changing in class 4 the position of the father classes (Class3,Class2)
 """
 (<class '__main__.Class4'>, <class '__main__.Class3'>, <class '__main__.Class2'>, <class '__main__.Class1'>, <class 'object'>)
+"""
+
+# adding super to all methods
+"""
+class 4 method
+class 2 method
+class 3 method
+class 1 method
 """
