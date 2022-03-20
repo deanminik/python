@@ -22,12 +22,24 @@ def event1():
     btn1.config(text='Pressed button')
 def event2():
     btn2.config(text='Pressed button')
+def event4():
+    btn4.config(text='Pressed button', fg='blue', relief=tk.GROOVE, bg='yellow')
+    # we can't use this  fg='blue', relief=tk.GROOVE with ttk from the theme
+
+
+
 
 #define 2 btn
 btn1 = ttk.Button(window, text='Button 1', command=event1)
 #btn1.pack()
 #btn1.grid(row=0, column=0)
-btn1.grid(row=0, column=0, sticky='NSWE') # NSWE -> get the all space available
+btn1.grid(row=0, column=0, sticky='NSWE', padx=40, pady=30, ipady=50, columnspan=2, rowspan=2) # NSWE -> get the all space available
+"""
+padx -> extern padding 
+pady
+ipadx -> inter padding
+ipady
+"""
 
 """
 to work with sticky 
@@ -37,12 +49,13 @@ S -> down
 W -> left
 """
 
-btn2 = ttk.Button(window, text='Button 2', command=event2)
-btn2.grid(row=1, column=0, sticky='NSWE')
+#btn2 = ttk.Button(window, text='Button 2', command=event2)
+#btn2.grid(row=1, column=0, sticky='NSWE')
 
-btn3 = ttk.Button(window, text='Button 3')
-btn3.grid(row=0, column=1, sticky='NSWE')
+#btn3 = ttk.Button(window, text='Button 3')
+#btn3.grid(row=0, column=1, sticky='NSWE')
 
-btn4 = ttk.Button(window, text='Button 4')
-btn4.grid(row=1, column=1, sticky='NSWE')
+#USING TK directly
+#btn4 = tk.Button(window, text='Button 4', command=event4)
+#btn4.grid(row=1, column=1, sticky='NSWE')
 window.mainloop()
