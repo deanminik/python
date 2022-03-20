@@ -153,3 +153,33 @@ print(OrderAndIntegerList.__mro__)
 """
 (<class '__main__.OrderAndIntegerList'>, <class '__main__.IntegerList'>, <class '__main__.OrderList'>, <class '__main__.SimpleList'>, <class 'object'>)
 """
+
+# using is isnstance
+print('Is is integer', isinstance(10, int))
+"""
+Is is integer True
+"""
+print('Is is integer', isinstance('hello', int))
+"""
+Is is integer False
+"""
+print('Is is string', isinstance('hello', str))
+"""
+Is is string True
+"""
+print('Is is integer order list? :', isinstance(order_integer_list, OrderAndIntegerList))
+"""
+Is is integer order list? : True
+"""
+print('Is is integer order list? :', isinstance(order_integer_list, OrderList))
+"""
+Is is integer order list? : True
+"""
+print('Is is integer order list? :', isinstance(order_integer_list, object))
+"""
+Is is integer order list? : True
+"""
+print('Is is integer order list? :', isinstance(order_integer_list, (SimpleList, OrderList, object)))
+"""
+Is is integer order list? : True
+"""
