@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, messagebox
 
 window = tk.Tk()
 window.geometry('600x400')
@@ -22,8 +22,12 @@ label1.grid(row=1, column=0, columnspan=2) # columnspan=2 -> use two column
 
 # Create a btn to get the data from the entry
 def send():
-    label1.config(text=entry_var1.get())
-
+    label1.config(text=entry1.get())
+    # message box
+    mens1 = entry1.get()
+    # messagebox.showinfo('windows title Message data', mens1 + 'Informatics')
+    # messagebox.showerror('windows title Error message', mens1 + 'Error')
+    messagebox.showwarning('windows title', mens1 + 'Alert')
 
 btn1 = ttk.Button(window, text='SEND', command=send)
 btn1.grid(row=0,column=1)
