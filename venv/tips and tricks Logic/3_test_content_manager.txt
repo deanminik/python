@@ -1,0 +1,2 @@
+3_test_content_manager.txt
+bye
